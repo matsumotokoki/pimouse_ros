@@ -1,17 +1,14 @@
 #!/bin/bash -xve
 
 #required packages
-#echo "empy install start"
-#pip install empy
-#echo "pyyaml install start"
-#pip install pyyaml
-#echo "rospkg install start"
-#pip install rospkg
-#echo "catkin_pkg install start"
-#pip install catkin_pkg
-echo "install start"
-pip install rospkg,empy,pyyaml,catkin_pkg
-echo "install finish"
+echo "pyyaml install start"
+pip install pyyaml
+echo "rospkg install start"
+pip install rospkg
+echo "empy install start"
+pip install empy
+echo "catkin_pkg install start"
+pip install catkin_pkg
 
 #ros install
 cd ..
