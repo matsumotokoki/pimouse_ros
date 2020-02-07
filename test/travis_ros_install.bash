@@ -1,9 +1,13 @@
 #!/bin/bash -xve
 
 #required packages
+echo "install start"
 pip install catkin_pkg
+echo "empy install start"
 pip install empy
+echo "pyyaml install start"
 pip install pyyaml
+echo "rospkg install start"
 pip install rospkg
 echo "install finish"
 
