@@ -1,6 +1,7 @@
 #!/bin/bash -xve
 
 #required packages
+pip install -U pip
 echo "empy install start"
 pip install empy
 echo "pyyaml install start"
