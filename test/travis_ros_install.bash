@@ -14,6 +14,7 @@ pip install catkin_pkg
 #ros install
 cd ..
 git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu14.04_server.git
+ls
 cd ./ros_setup_scripts_Ubintu14.04_server
 bash ./setup0.bash
 bash ./setip1.bash
